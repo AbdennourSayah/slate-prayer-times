@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  direction: rtl;
+}
+#root > main > div > div.paryers > div > div > h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+#root > main > div > div.paryers > div > div {
+  border-radius: 8px;
+  border: #1A1110 2px solid;
+  margin: 15px;
+  padding: 15px;
+}
+
+#root > main > div > div.paryers > div > div > img {
+
+  border-top-left-radius: 8px ;
+  border-top-right-radius: 8px ;
+}
+#root > main > div > div.paryers > div > div > p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+#root > main > div > div.parent.grid.grid-cols-2.p-\[20px\].text-center > div.resete.m-2.bg-\[\#F5F5F5\].rounded-\[8px\].border-\[\#1A1110\].border-\[2px\].p-\[10px\]{
+  font-size: 25px;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
